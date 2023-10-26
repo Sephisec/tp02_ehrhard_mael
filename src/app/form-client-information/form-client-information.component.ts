@@ -19,7 +19,6 @@ export class FormClientInformationComponent {
   email: string = "";
   gender: string= "";
 
-  protected readonly onsubmit = onsubmit;
   recap: string = "";
 
   submit() {
