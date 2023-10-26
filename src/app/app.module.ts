@@ -2,21 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { BodyComponent } from './body/body.component';
-import { TotemComponent } from './totem/totem.component';
-import { LoginComponent } from './login/login.component';
 import { FormsModule } from "@angular/forms";
+import { TetiereComponent } from './tetiere/tetiere.component';
+import { FooterComponent } from './footer/footer.component';
+import { FormClientInformationComponent } from './form-client-information/form-client-information.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TetiereComponent,
     FooterComponent,
-    HeaderComponent,
-    BodyComponent,
-    TotemComponent,
-    LoginComponent
+    FormClientInformationComponent,
   ],
   imports: [
     BrowserModule,

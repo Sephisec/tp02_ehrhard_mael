@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TotemComponent } from './totem.component';
+import { TetiereComponent } from './tetiere.component';
 
-describe('TotemComponent', () => {
-  let component: TotemComponent;
-  let fixture: ComponentFixture<TotemComponent>;
+describe('TetiereComponent', () => {
+  let component: TetiereComponent;
+  let fixture: ComponentFixture<TetiereComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TotemComponent]
+      declarations: [TetiereComponent]
     });
-    fixture = TestBed.createComponent(TotemComponent);
+    fixture = TestBed.createComponent(TetiereComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
